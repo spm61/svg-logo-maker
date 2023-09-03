@@ -80,7 +80,7 @@ function generateLogo(logoName, userInput) {
 //A simple function to welcome the user and start the program.
 function runProgram() {
     console.log("Welcome to the SVG Logo Generator!  Please answer the following prompts to generate an SVG Logo");
-    promptUser();
+    inquireUser();
 }
 //Begin execution of the code.
 runProgram();
