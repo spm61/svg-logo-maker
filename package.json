@@ -1,6 +1,18 @@
 {
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "An SVG Logo Generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "Jest"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.4",
-    "jest": "^29.6.4"
-  }
+    "inquirer": "8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "keywords": []
 }
