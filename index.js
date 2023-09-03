@@ -73,8 +73,8 @@ function generateLogo(logoName, userInput) {
 
     //Now that we have our file, attempt to write it.
     fs.writeFile(logoName, svgString, (error) => {
-        console.error("An error occurred generating the SVG file. " + error)
-    });
+        error ? console.log(err) : console.log("Successfully created logo.svg!"); //if an error occurred, log it.  Otherwise print a success message.  Uses a "?" statement.
+      });
 }
 
 //A simple function to welcome the user and start the program.
