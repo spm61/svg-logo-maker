@@ -2,7 +2,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const { Triangle, Square, Circle } = require("./lib/shapes");
-const { error } = require("console");
 
 //Uses the inquirer to ask the user what kind of SVG thing they want.
 function inquireUser() {
